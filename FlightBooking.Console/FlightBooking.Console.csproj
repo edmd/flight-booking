@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <StartupObject>FlightBooking.Console.FlightProgram</StartupObject>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlightBooking.Core\FlightBooking.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyConsoleCore" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>
